@@ -13,6 +13,7 @@
 		5C3BC52A1D5DE5E500187AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BC5281D5DE5E500187AC3 /* Main.storyboard */; };
 		5C3BC52C1D5DE5E500187AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BC52B1D5DE5E500187AC3 /* Assets.xcassets */; };
 		5C3BC52F1D5DE5E500187AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BC52D1D5DE5E500187AC3 /* LaunchScreen.storyboard */; };
+		5C9992381DAA56E200C59451 /* PostResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9992371DAA56E200C59451 /* PostResponseModel.m */; };
 		5CA36B2F1D5DFCC400DD2F3F /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA36B2E1D5DFCC400DD2F3F /* ResponseModel.m */; };
 		66862B95C695854564D22762 /* Pods_AFNetworkSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBBC1EC82839A5D98D6E3F9 /* Pods_AFNetworkSample.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,8 @@
 		5C3BC52B1D5DE5E500187AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3BC52E1D5DE5E500187AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3BC5301D5DE5E500187AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9992361DAA56E200C59451 /* PostResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostResponseModel.h; sourceTree = "<group>"; };
+		5C9992371DAA56E200C59451 /* PostResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostResponseModel.m; sourceTree = "<group>"; };
 		5CA36B2D1D5DFCC400DD2F3F /* ResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
 		5CA36B2E1D5DFCC400DD2F3F /* ResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
 		6BBBC1EC82839A5D98D6E3F9 /* Pods_AFNetworkSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +74,8 @@
 				5C3BC5221D5DE5E500187AC3 /* AppDelegate.h */,
 				5C3BC5231D5DE5E500187AC3 /* AppDelegate.m */,
 				5CA36B2D1D5DFCC400DD2F3F /* ResponseModel.h */,
+				5C9992361DAA56E200C59451 /* PostResponseModel.h */,
+				5C9992371DAA56E200C59451 /* PostResponseModel.m */,
 				5CA36B2E1D5DFCC400DD2F3F /* ResponseModel.m */,
 				5C3BC5251D5DE5E500187AC3 /* ViewController.h */,
 				5C3BC5261D5DE5E500187AC3 /* ViewController.m */,
@@ -232,6 +237,7 @@
 				5C3BC5271D5DE5E500187AC3 /* ViewController.m in Sources */,
 				5C3BC5241D5DE5E500187AC3 /* AppDelegate.m in Sources */,
 				5C3BC5211D5DE5E500187AC3 /* main.m in Sources */,
+				5C9992381DAA56E200C59451 /* PostResponseModel.m in Sources */,
 				5CA36B2F1D5DFCC400DD2F3F /* ResponseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

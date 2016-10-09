@@ -18,27 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o79-g7-aHI">
-                                <rect key="frame" x="243" y="285" width="114" height="30"/>
-                                <state key="normal" title="HTTPリクエスト"/>
-                                <connections>
-                                    <action selector="tappedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2P-xw-pzb"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nip-7s-0h7">
                                 <rect key="frame" x="70" y="105" width="460" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o79-g7-aHI">
+                                <rect key="frame" x="226" y="285" width="147" height="30"/>
+                                <state key="normal" title="HTTP GETリクエスト"/>
+                                <connections>
+                                    <action selector="tappedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2P-xw-pzb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nve-am-oIy">
+                                <rect key="frame" x="222" y="348" width="157" height="30"/>
+                                <state key="normal" title="HTTP POSTリクエスト"/>
+                                <connections>
+                                    <action selector="tappedPostBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GjT-dc-eWe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Nve-am-oIy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9ES-Z1-wMw"/>
                             <constraint firstItem="nip-7s-0h7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="85" id="DX9-Nj-bbR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nip-7s-0h7" secondAttribute="trailing" constant="50" id="JR7-ID-Iuf"/>
                             <constraint firstItem="o79-g7-aHI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UcG-x7-aJF"/>
                             <constraint firstItem="o79-g7-aHI" firstAttribute="top" secondItem="nip-7s-0h7" secondAttribute="bottom" constant="52" id="e0o-ov-Wbi"/>
                             <constraint firstItem="nip-7s-0h7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="hpr-W0-emF"/>
+                            <constraint firstItem="Nve-am-oIy" firstAttribute="top" secondItem="o79-g7-aHI" secondAttribute="bottom" constant="33" id="mIe-kX-5ZN"/>
                             <constraint firstItem="o79-g7-aHI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zCM-yp-ZUR"/>
                         </constraints>
                     </view>
